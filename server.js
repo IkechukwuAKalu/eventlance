@@ -35,10 +35,6 @@ app.use('/auth', routes.auth);
 app.use((err, req, res, next) => {
   res.send({error: err.message});
 });
-// Serve the robots.txt file for bots
-app.get('/robots.txt', (req, res) => {
-  res.sendFile(__dirname + '/robots.txt');
-});
 
 app.listen(process.env.PORT || 3000, () => {
   console.log("Now listening for connections...");
