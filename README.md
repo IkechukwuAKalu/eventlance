@@ -1,6 +1,6 @@
 # Eventlance
 
-This is freelancing app built using Node.js and MongoDB. It is basically just a REST API with no views added to it yet. 
+This is freelancing app built using Node.js (`express`) and MongoDB. It is basically just a REST API with no views added to it yet. 
 
 ## Security
 It uses OAuth2 for requests authentication. The Node.js module `oauth2orize` is used to implement it, together with the `passport` module. 
