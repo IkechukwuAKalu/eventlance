@@ -1,9 +1,10 @@
 {
   "name": "eventlance",
   "version": "0.0.1",
-  "description": "A Freelance App",
+  "description": "A Node.js Freelance App",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "mocha"
   },
   "repository": {
@@ -14,6 +15,9 @@
     "events",
     "freelance"
   ],
+  "engines": {
+    "node": "6.11.0"
+  },
   "author": "Ikechukwu A. Kalu, Bestbrain I. Livinus",
   "license": "MIT",
   "bugs": {

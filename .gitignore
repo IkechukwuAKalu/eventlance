@@ -1,0 +1,5 @@
+/node_modules
+/robots.txt
+npm-debug.log
+.DS_Store
+/*.env
